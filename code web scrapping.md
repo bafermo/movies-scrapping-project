@@ -92,8 +92,7 @@ for i in movie_detail:
 
 __Treating diferent indexes on HTML__
 <br>
-Because of the specific HTML structure of this page, 2 movies had not the genre and revenue information place into the same index. <br>
-So, I've made pecific and pontual corrections here. However, it should be noted that that for bigger amounts of data (and indexes inconsistency), there are better alternatives to solve it
+Because of the specific HTML structure of this page, 2 movies had not the genre and revenue information place into the same index. So, I've made pecific and pontual corrections here. However, it should be noted that that for bigger amounts of data (and indexes inconsistency), there are better alternatives to solve it
 
 
 ```python
@@ -334,8 +333,8 @@ data.tail(20)
 
 
 
-__Exports data frame into csv__
-
+__Exports data frame into csv__ <br>
+All data is exported into file MovieList
 
 ```python
 data.to_csv('MovieList.csv')
