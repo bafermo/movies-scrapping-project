@@ -1,4 +1,4 @@
-# Basic web scrap project
+# Basic web scrapping project
 ## IMDB movies you must watch
 Basic web scrapping project for IMDB Movies you must watch list
 <br>
